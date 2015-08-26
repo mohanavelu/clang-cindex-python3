@@ -1018,6 +1018,29 @@ CursorKind.TRANSLATION_UNIT = CursorKind(300)
 # Attributes
 
 # An attribute whoe specific kind is note exposed via this interface
+#CursorKind.UNEXPOSED_ATTR = CursorKind(400)
+
+#CursorKind.IB_ACTION_ATTR = CursorKind(401)
+#CursorKind.IB_OUTLET_ATTR = CursorKind(402)
+#CursorKind.IB_OUTLET_COLLECTION_ATTR = CursorKind(403)
+
+#CursorKind.CXX_FINAL_ATTR = CursorKind(404)
+#CursorKind.CXX_OVERRIDE_ATTR = CursorKind(405)
+#CursorKind.ANNOTATE_ATTR = CursorKind(406)
+#CursorKind.ASM_LABEL_ATTR = CursorKind(407)
+
+###
+# Preprocessing
+#CursorKind.PREPROCESSING_DIRECTIVE = CursorKind(500)
+#CursorKind.MACRO_DEFINITION = CursorKind(501)
+#CursorKind.MACRO_INSTANTIATION = CursorKind(502)
+#CursorKind.INCLUSION_DIRECTIVE = CursorKind(503)
+
+
+###
+# Attributes
+
+# An attribute whoe specific kind is note exposed via this interface
 CursorKind.UNEXPOSED_ATTR = CursorKind(400)
 
 CursorKind.IB_ACTION_ATTR = CursorKind(401)
@@ -1028,6 +1051,15 @@ CursorKind.CXX_FINAL_ATTR = CursorKind(404)
 CursorKind.CXX_OVERRIDE_ATTR = CursorKind(405)
 CursorKind.ANNOTATE_ATTR = CursorKind(406)
 CursorKind.ASM_LABEL_ATTR = CursorKind(407)
+CursorKind.PACKED_ATTR = CursorKind(408)
+CursorKind.PURE_ATTR = CursorKind(409)
+CursorKind.CONST_ATTR = CursorKind(410)
+CursorKind.NODUPLICATE_ATTR = CursorKind(411)
+CursorKind.CUDACONSTANT_ATTR = CursorKind(412)
+CursorKind.CUDADEVICE_ATTR = CursorKind(413)
+CursorKind.CUDAGLOBAL_ATTR = CursorKind(414)
+CursorKind.CUDAHOST_ATTR = CursorKind(415)
+CursorKind.CUDASHARED_ATTR = CursorKind(416)
 
 ###
 # Preprocessing
@@ -1035,6 +1067,7 @@ CursorKind.PREPROCESSING_DIRECTIVE = CursorKind(500)
 CursorKind.MACRO_DEFINITION = CursorKind(501)
 CursorKind.MACRO_INSTANTIATION = CursorKind(502)
 CursorKind.INCLUSION_DIRECTIVE = CursorKind(503)
+
 
 ### Cursors ###
 
